@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		F53EC94E1D76AC7D009C17CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53EC94D1D76AC7D009C17CB /* AppDelegate.swift */; };
-		F53EC9501D76AC7D009C17CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53EC94F1D76AC7D009C17CB /* ViewController.swift */; };
-		F53EC9531D76AC7D009C17CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53EC9511D76AC7D009C17CB /* Main.storyboard */; };
 		F53EC9551D76AC7E009C17CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53EC9541D76AC7E009C17CB /* Assets.xcassets */; };
 		F53EC9581D76AC7E009C17CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53EC9561D76AC7E009C17CB /* LaunchScreen.storyboard */; };
 		F53EC9631D76AC7E009C17CB /* CollectionView_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53EC9621D76AC7E009C17CB /* CollectionView_SampleTests.swift */; };
 		F53EC96E1D76AC7E009C17CB /* CollectionView_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53EC96D1D76AC7E009C17CB /* CollectionView_SampleUITests.swift */; };
+		F53EC97D1D76AEA5009C17CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53EC97C1D76AEA5009C17CB /* Main.storyboard */; };
+		F53EC9801D76AFDB009C17CB /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53EC97F1D76AFDB009C17CB /* Detail.storyboard */; };
+		F53EC9901D76AFED009C17CB /* akita.json in Resources */ = {isa = PBXBuildFile; fileRef = F53EC9821D76AFED009C17CB /* akita.json */; };
+		F53EC9911D76AFED009C17CB /* hiroshima.json in Resources */ = {isa = PBXBuildFile; fileRef = F53EC9831D76AFED009C17CB /* hiroshima.json */; };
+		F53EC9921D76AFED009C17CB /* hukuoka.json in Resources */ = {isa = PBXBuildFile; fileRef = F53EC9841D76AFED009C17CB /* hukuoka.json */; };
+		F53EC9931D76AFED009C17CB /* kagoshima.json in Resources */ = {isa = PBXBuildFile; fileRef = F53EC9851D76AFED009C17CB /* kagoshima.json */; };
+		F53EC9941D76AFED009C17CB /* kouchi.json in Resources */ = {isa = PBXBuildFile; fileRef = F53EC9861D76AFED009C17CB /* kouchi.json */; };
+		F53EC9951D76AFED009C17CB /* kushiro.json in Resources */ = {isa = PBXBuildFile; fileRef = F53EC9871D76AFED009C17CB /* kushiro.json */; };
+		F53EC9961D76AFED009C17CB /* nagano.json in Resources */ = {isa = PBXBuildFile; fileRef = F53EC9881D76AFED009C17CB /* nagano.json */; };
+		F53EC9971D76AFED009C17CB /* nagoya.json in Resources */ = {isa = PBXBuildFile; fileRef = F53EC9891D76AFED009C17CB /* nagoya.json */; };
+		F53EC9981D76AFED009C17CB /* naha.json in Resources */ = {isa = PBXBuildFile; fileRef = F53EC98A1D76AFED009C17CB /* naha.json */; };
+		F53EC9991D76AFED009C17CB /* niigata.json in Resources */ = {isa = PBXBuildFile; fileRef = F53EC98B1D76AFED009C17CB /* niigata.json */; };
+		F53EC99A1D76AFED009C17CB /* oosaka.json in Resources */ = {isa = PBXBuildFile; fileRef = F53EC98C1D76AFED009C17CB /* oosaka.json */; };
+		F53EC99B1D76AFED009C17CB /* sapporo.json in Resources */ = {isa = PBXBuildFile; fileRef = F53EC98D1D76AFED009C17CB /* sapporo.json */; };
+		F53EC99C1D76AFED009C17CB /* sendai.json in Resources */ = {isa = PBXBuildFile; fileRef = F53EC98E1D76AFED009C17CB /* sendai.json */; };
+		F53EC99D1D76AFED009C17CB /* tokyo.json in Resources */ = {isa = PBXBuildFile; fileRef = F53EC98F1D76AFED009C17CB /* tokyo.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +50,6 @@
 /* Begin PBXFileReference section */
 		F53EC94A1D76AC7D009C17CB /* CollectionView-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CollectionView-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53EC94D1D76AC7D009C17CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F53EC94F1D76AC7D009C17CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F53EC9521D76AC7D009C17CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F53EC9541D76AC7E009C17CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F53EC9571D76AC7E009C17CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F53EC9591D76AC7E009C17CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +59,22 @@
 		F53EC9691D76AC7E009C17CB /* CollectionView-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CollectionView-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53EC96D1D76AC7E009C17CB /* CollectionView_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView_SampleUITests.swift; sourceTree = "<group>"; };
 		F53EC96F1D76AC7E009C17CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53EC97C1D76AEA5009C17CB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F53EC97F1D76AFDB009C17CB /* Detail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		F53EC9821D76AFED009C17CB /* akita.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = akita.json; sourceTree = "<group>"; };
+		F53EC9831D76AFED009C17CB /* hiroshima.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hiroshima.json; sourceTree = "<group>"; };
+		F53EC9841D76AFED009C17CB /* hukuoka.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hukuoka.json; sourceTree = "<group>"; };
+		F53EC9851D76AFED009C17CB /* kagoshima.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kagoshima.json; sourceTree = "<group>"; };
+		F53EC9861D76AFED009C17CB /* kouchi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kouchi.json; sourceTree = "<group>"; };
+		F53EC9871D76AFED009C17CB /* kushiro.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kushiro.json; sourceTree = "<group>"; };
+		F53EC9881D76AFED009C17CB /* nagano.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nagano.json; sourceTree = "<group>"; };
+		F53EC9891D76AFED009C17CB /* nagoya.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nagoya.json; sourceTree = "<group>"; };
+		F53EC98A1D76AFED009C17CB /* naha.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = naha.json; sourceTree = "<group>"; };
+		F53EC98B1D76AFED009C17CB /* niigata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = niigata.json; sourceTree = "<group>"; };
+		F53EC98C1D76AFED009C17CB /* oosaka.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = oosaka.json; sourceTree = "<group>"; };
+		F53EC98D1D76AFED009C17CB /* sapporo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sapporo.json; sourceTree = "<group>"; };
+		F53EC98E1D76AFED009C17CB /* sendai.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sendai.json; sourceTree = "<group>"; };
+		F53EC98F1D76AFED009C17CB /* tokyo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tokyo.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +126,11 @@
 			isa = PBXGroup;
 			children = (
 				F53EC94D1D76AC7D009C17CB /* AppDelegate.swift */,
-				F53EC94F1D76AC7D009C17CB /* ViewController.swift */,
-				F53EC9511D76AC7D009C17CB /* Main.storyboard */,
+				F53EC97B1D76AEA5009C17CB /* Main */,
+				F53EC97E1D76AFDB009C17CB /* Detail */,
 				F53EC9541D76AC7E009C17CB /* Assets.xcassets */,
 				F53EC9561D76AC7E009C17CB /* LaunchScreen.storyboard */,
+				F53EC9811D76AFED009C17CB /* Resource */,
 				F53EC9591D76AC7E009C17CB /* Info.plist */,
 			);
 			path = "CollectionView-Sample";
@@ -123,6 +152,43 @@
 				F53EC96F1D76AC7E009C17CB /* Info.plist */,
 			);
 			path = "CollectionView-SampleUITests";
+			sourceTree = "<group>";
+		};
+		F53EC97B1D76AEA5009C17CB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F53EC97C1D76AEA5009C17CB /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F53EC97E1D76AFDB009C17CB /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F53EC97F1D76AFDB009C17CB /* Detail.storyboard */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		F53EC9811D76AFED009C17CB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F53EC9821D76AFED009C17CB /* akita.json */,
+				F53EC9831D76AFED009C17CB /* hiroshima.json */,
+				F53EC9841D76AFED009C17CB /* hukuoka.json */,
+				F53EC9851D76AFED009C17CB /* kagoshima.json */,
+				F53EC9861D76AFED009C17CB /* kouchi.json */,
+				F53EC9871D76AFED009C17CB /* kushiro.json */,
+				F53EC9881D76AFED009C17CB /* nagano.json */,
+				F53EC9891D76AFED009C17CB /* nagoya.json */,
+				F53EC98A1D76AFED009C17CB /* naha.json */,
+				F53EC98B1D76AFED009C17CB /* niigata.json */,
+				F53EC98C1D76AFED009C17CB /* oosaka.json */,
+				F53EC98D1D76AFED009C17CB /* sapporo.json */,
+				F53EC98E1D76AFED009C17CB /* sendai.json */,
+				F53EC98F1D76AFED009C17CB /* tokyo.json */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +295,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F53EC97D1D76AEA5009C17CB /* Main.storyboard in Resources */,
+				F53EC9901D76AFED009C17CB /* akita.json in Resources */,
+				F53EC9931D76AFED009C17CB /* kagoshima.json in Resources */,
+				F53EC99C1D76AFED009C17CB /* sendai.json in Resources */,
+				F53EC9951D76AFED009C17CB /* kushiro.json in Resources */,
+				F53EC9981D76AFED009C17CB /* naha.json in Resources */,
+				F53EC9991D76AFED009C17CB /* niigata.json in Resources */,
+				F53EC9911D76AFED009C17CB /* hiroshima.json in Resources */,
 				F53EC9581D76AC7E009C17CB /* LaunchScreen.storyboard in Resources */,
+				F53EC99B1D76AFED009C17CB /* sapporo.json in Resources */,
+				F53EC9941D76AFED009C17CB /* kouchi.json in Resources */,
+				F53EC9921D76AFED009C17CB /* hukuoka.json in Resources */,
+				F53EC99D1D76AFED009C17CB /* tokyo.json in Resources */,
 				F53EC9551D76AC7E009C17CB /* Assets.xcassets in Resources */,
-				F53EC9531D76AC7D009C17CB /* Main.storyboard in Resources */,
+				F53EC9801D76AFDB009C17CB /* Detail.storyboard in Resources */,
+				F53EC9971D76AFED009C17CB /* nagoya.json in Resources */,
+				F53EC99A1D76AFED009C17CB /* oosaka.json in Resources */,
+				F53EC9961D76AFED009C17CB /* nagano.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +337,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F53EC9501D76AC7D009C17CB /* ViewController.swift in Sources */,
 				F53EC94E1D76AC7D009C17CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +373,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F53EC9511D76AC7D009C17CB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F53EC9521D76AC7D009C17CB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F53EC9561D76AC7E009C17CB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
