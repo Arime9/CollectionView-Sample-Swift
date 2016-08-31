@@ -28,6 +28,11 @@
 		F53EC99B1D76AFED009C17CB /* sapporo.json in Resources */ = {isa = PBXBuildFile; fileRef = F53EC98D1D76AFED009C17CB /* sapporo.json */; };
 		F53EC99C1D76AFED009C17CB /* sendai.json in Resources */ = {isa = PBXBuildFile; fileRef = F53EC98E1D76AFED009C17CB /* sendai.json */; };
 		F53EC99D1D76AFED009C17CB /* tokyo.json in Resources */ = {isa = PBXBuildFile; fileRef = F53EC98F1D76AFED009C17CB /* tokyo.json */; };
+		F53EC99F1D76B0B7009C17CB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53EC99E1D76B0B7009C17CB /* MainViewController.swift */; };
+		F53EC9A11D76B0CC009C17CB /* MainCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53EC9A01D76B0CC009C17CB /* MainCollectionView.swift */; };
+		F53EC9A31D76B0E5009C17CB /* MainCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53EC9A21D76B0E5009C17CB /* MainCollectionReusableView.swift */; };
+		F53EC9A51D76B0FD009C17CB /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53EC9A41D76B0FD009C17CB /* MainCollectionViewCell.swift */; };
+		F53EC9A71D76B110009C17CB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53EC9A61D76B110009C17CB /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +80,11 @@
 		F53EC98D1D76AFED009C17CB /* sapporo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sapporo.json; sourceTree = "<group>"; };
 		F53EC98E1D76AFED009C17CB /* sendai.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sendai.json; sourceTree = "<group>"; };
 		F53EC98F1D76AFED009C17CB /* tokyo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tokyo.json; sourceTree = "<group>"; };
+		F53EC99E1D76B0B7009C17CB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F53EC9A01D76B0CC009C17CB /* MainCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionView.swift; sourceTree = "<group>"; };
+		F53EC9A21D76B0E5009C17CB /* MainCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionReusableView.swift; sourceTree = "<group>"; };
+		F53EC9A41D76B0FD009C17CB /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		F53EC9A61D76B110009C17CB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +168,10 @@
 			isa = PBXGroup;
 			children = (
 				F53EC97C1D76AEA5009C17CB /* Main.storyboard */,
+				F53EC99E1D76B0B7009C17CB /* MainViewController.swift */,
+				F53EC9A01D76B0CC009C17CB /* MainCollectionView.swift */,
+				F53EC9A21D76B0E5009C17CB /* MainCollectionReusableView.swift */,
+				F53EC9A41D76B0FD009C17CB /* MainCollectionViewCell.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -166,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				F53EC97F1D76AFDB009C17CB /* Detail.storyboard */,
+				F53EC9A61D76B110009C17CB /* DetailViewController.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -337,7 +352,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F53EC9A31D76B0E5009C17CB /* MainCollectionReusableView.swift in Sources */,
 				F53EC94E1D76AC7D009C17CB /* AppDelegate.swift in Sources */,
+				F53EC9A51D76B0FD009C17CB /* MainCollectionViewCell.swift in Sources */,
+				F53EC9A71D76B110009C17CB /* DetailViewController.swift in Sources */,
+				F53EC99F1D76B0B7009C17CB /* MainViewController.swift in Sources */,
+				F53EC9A11D76B0CC009C17CB /* MainCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
