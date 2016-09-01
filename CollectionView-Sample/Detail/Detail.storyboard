@@ -10,7 +10,7 @@
         <!--Detail View Controller-->
         <scene sceneID="YyT-Cb-4so">
             <objects>
-                <viewController storyboardIdentifier="DetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4Qi-RI-6h7" customClass="DetailViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4Qi-RI-6h7" customClass="DetailViewController" customModule="CollectionView_Sample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mWt-WW-e1D"/>
                         <viewControllerLayoutGuide type="bottom" id="UkL-f4-4ar"/>
