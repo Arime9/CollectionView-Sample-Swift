@@ -1,5 +1,5 @@
 //
-//	WELocation.swift
+//	WEMax.swift
 //
 //	Create by masato arai on 1/9/2016
 //	Copyright © 2016. All rights reserved.
@@ -7,20 +7,18 @@
 
 import Foundation
 
-struct WELocation{
+struct WEMax{
 
-	var area : String!
-	var city : String!
-	var prefecture : String!
+	var celsius : String!
+	var fahrenheit : String!
 
 
 	/**
 	 * Instantiate the instance using the passed dictionary values to set the properties values
 	 */
 	init(fromDictionary dictionary: NSDictionary){
-		area = dictionary["area"] as? String
-		city = dictionary["city"] as? String
-		prefecture = dictionary["prefecture"] as? String
+		celsius = dictionary["celsius"] as? String
+		fahrenheit = dictionary["fahrenheit"] as? String
 	}
 
 }

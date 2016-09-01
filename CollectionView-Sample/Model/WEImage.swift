@@ -1,7 +1,7 @@
 //
 //	WEImage.swift
 //
-//	Create by masato arai on 31/8/2016
+//	Create by masato arai on 1/9/2016
 //	Copyright © 2016. All rights reserved.
 //	Model file generated using JSONExport: https://github.com/Ahmed-Ali/JSONExport
 
