@@ -9,10 +9,10 @@ import Foundation
 
 struct WECopyright{
 
-	var image : WEImage!
-	var link : String!
+	var image : WEImage?
+	var link : String?
 	var provider : [WEProvider]!
-	var title : String!
+	var title : String?
 
 
 	/**

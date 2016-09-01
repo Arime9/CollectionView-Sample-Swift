@@ -9,8 +9,8 @@ import Foundation
 
 struct WETemperature{
 
-	var max : WEMax!
-	var min : WEMax!
+	var max : WEMax?
+	var min : WEMax?
 
 
 	/**

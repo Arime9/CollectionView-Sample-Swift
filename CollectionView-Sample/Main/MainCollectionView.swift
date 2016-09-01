@@ -29,7 +29,7 @@ class MainCollectionView: UICollectionView {
         }
         
         // 気象情報を地区ID順にソートする(linkの末尾が地区IDに当たる)
-        let _weathers = weathers.sorted { $0.link < $1.link }
+        let _weathers = weathers.sorted { $0.link! < $1.link! }
         
         return _weathers
     }
@@ -75,10 +75,10 @@ extension MainCollectionView: UICollectionViewDataSource {
         
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MainCollectionViewCell", for: indexPath) as? MainCollectionViewCell else { fatalError("Unable to dequeue a MainCollectionViewCell") }
         cell.dateLabel.text = forecast.dateLabel
-        cell.weatherImageView.image = UIImage(named: (forecast.image.url as NSString).lastPathComponent)
-        cell.maxLabel.text = forecast.temperature.max.celsius + "°C"
+        cell.weatherImageView.image = UIImage(named: ((forecast.image?.url ?? "") as NSString).lastPathComponent)
+        cell.maxLabel.text = forecast.temperature?.max?.celsius != nil ? (forecast.temperature?.max?.celsius)! + "°C" : ""
         cell.slashLabel.text = "/"
-        cell.minLabel.text = forecast.temperature.min.celsius + "°C"
+        cell.minLabel.text = forecast.temperature?.min?.celsius != nil ? (forecast.temperature?.min?.celsius)! + "°C" : ""
         return cell
     }
 }

@@ -9,11 +9,11 @@ import Foundation
 
 struct WEForecast{
 
-	var date : String!
-	var dateLabel : String!
-	var image : WEImage!
-	var telop : String!
-	var temperature : WETemperature!
+	var date : String?
+	var dateLabel : String?
+	var image : WEImage?
+	var telop : String?
+	var temperature : WETemperature?
 
 
 	/**

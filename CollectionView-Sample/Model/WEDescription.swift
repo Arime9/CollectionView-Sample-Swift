@@ -9,8 +9,8 @@ import Foundation
 
 struct WEDescription{
 
-	var publicTime : String!
-	var text : String!
+	var publicTime : String?
+	var text : String?
 
 
 	/**

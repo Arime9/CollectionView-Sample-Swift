@@ -9,8 +9,8 @@ import Foundation
 
 struct WEProvider{
 
-	var link : String!
-	var name : String!
+	var link : String?
+	var name : String?
 
 
 	/**

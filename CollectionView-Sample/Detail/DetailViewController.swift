@@ -26,7 +26,7 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         
         title = weather?.title
-        descriptionLabel.text = weather?.descriptionField.text
+        descriptionLabel.text = weather?.descriptionField?.text
     }
     
     override func viewWillAppear(_ animated: Bool) {

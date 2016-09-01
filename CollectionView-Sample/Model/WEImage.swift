@@ -9,11 +9,11 @@ import Foundation
 
 struct WEImage{
 
-	var height : Int!
-	var link : String!
-	var title : String!
-	var url : String!
-	var width : Int!
+	var height : Int?
+	var link : String?
+	var title : String?
+	var url : String?
+	var width : Int?
 
 
 	/**

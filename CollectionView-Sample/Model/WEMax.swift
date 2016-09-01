@@ -9,8 +9,8 @@ import Foundation
 
 struct WEMax{
 
-	var celsius : String!
-	var fahrenheit : String!
+	var celsius : String?
+	var fahrenheit : String?
 
 
 	/**

@@ -9,14 +9,14 @@ import Foundation
 
 struct WEWeather{
 
-	var copyright : WECopyright!
-	var descriptionField : WEDescription!
+	var copyright : WECopyright?
+	var descriptionField : WEDescription?
 	var forecasts : [WEForecast]!
-	var link : String!
-	var location : WELocation!
-	var pinpointLocations : [WEProvider]!
-	var publicTime : String!
-	var title : String!
+	var link : String?
+	var location : WELocation?
+	var pinpointLocations : [WEProvider]
+	var publicTime : String?
+	var title : String?
 
 
 	/**
