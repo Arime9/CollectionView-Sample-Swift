@@ -2,7 +2,7 @@
 //  CollectionView_SampleUITests.swift
 //  CollectionView-SampleUITests
 //
-//  Created by 新井　雅人 on 2016/08/31.
+//  Created by masato_arai on 2016/08/31.
 //  Copyright © 2016年 Tea and Coffee. All rights reserved.
 //
 
