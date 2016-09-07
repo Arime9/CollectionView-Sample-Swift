@@ -87,11 +87,25 @@ extension MainCollectionView: UICollectionViewDataSource {
         
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MainCollectionViewCell", for: indexPath) as? MainCollectionViewCell else { fatalError("Unable to dequeue a MainCollectionViewCell") }
         cell.dateLabel.text = forecast.dateLabel
-        cell.weatherImageView.image = UIImage(named: ((forecast.image?.url ?? "") as NSString).lastPathComponent)
+        cell.weatherImageView.image = self.imageWith(assetName: self.lastPathName(forecast.image?.url ?? ""))
         cell.maxLabel.text = forecast.temperature?.max?.celsius != nil ? (forecast.temperature?.max?.celsius)! + "°C" : ""
         cell.slashLabel.text = "/"
         cell.minLabel.text = forecast.temperature?.min?.celsius != nil ? (forecast.temperature?.min?.celsius)! + "°C" : ""
         return cell
+    }
+    
+    private func lastPathName(_ URLString: String) -> String {
+        let s1 = (URLString as NSString).lastPathComponent
+        let s2 = (s1 as NSString).deletingPathExtension
+        return s2
+    }
+    
+    private func imageWith(assetName: String) -> UIImage? {
+        guard let dataAsset = NSDataAsset(name: assetName) else {
+            return nil
+        }
+        let image = UIImage(data: dataAsset.data)
+        return image
     }
 }
 
