@@ -16,11 +16,12 @@ class MainCollectionView: UICollectionView {
     private func _weathers() -> [WEWeather] {
         // JSONから気象情報を取得する
         var weathers = [WEWeather]()
-        guard let jsonURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: nil) else { fatalError("Not found json") }
-        for jsonURL in jsonURLs {
+        let assetsNames = ["akita", "hiroshima", "hukuoka", "kagoshima", "kouchi", "kushiro", "nagano", "nagoya", "naha", "niigata", "oosaka", "sapporo", "sendai", "tokyo"]
+        let dataAssets = self.dataAssets(with: assetsNames)
+        
+        for dataAsset in dataAssets {
             do {
-                let jsonData = try Data(contentsOf: jsonURL)
-                let jsonDic = try JSONSerialization.jsonObject(with: jsonData, options: []) as! NSDictionary
+                let jsonDic = try JSONSerialization.jsonObject(with: dataAsset.data, options: []) as! NSDictionary
                 let weater = WEWeather(fromDictionary: jsonDic)
                 weathers.append(weater)
             } catch {
@@ -32,6 +33,17 @@ class MainCollectionView: UICollectionView {
         let _weathers = weathers.sorted { $0.link! < $1.link! }
         
         return _weathers
+    }
+    
+    private func dataAssets(with names: [String]) -> [NSDataAsset] {
+        var dataAssets = [NSDataAsset]()
+        for name in names {
+            guard let dataAsset = NSDataAsset(name: name) else {
+                break
+            }
+            dataAssets.append(dataAsset)
+        }
+        return dataAssets
     }
     
     override func awakeFromNib() {
